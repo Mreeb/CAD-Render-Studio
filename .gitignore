@@ -1,0 +1,45 @@
+# Environment & Secrets (NEVER COMMIT SENSITIVE KEYS)
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node.js & Frontend Build Outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# PyInstaller & Build Outputs
+dist/
+build/
+
+# Databases & Runtime State
+*.db
+*.sqlite
+*.sqlite3
+cad_manager.db
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Compiled PDF manuals (keep generate_pdf_manual.py in repo)
+CAD_Render_Studio_User_Manual.pdf
